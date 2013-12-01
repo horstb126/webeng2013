@@ -1,25 +1,644 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<title>Willkommen!</title>
-</head>
-<body>
-<header>
-	<h1>Willkommen!</h1>
-</header>
-<article>
-	<p>
-		Diese Seite wird von Ihrem eigenen Webserver auf Ihrem eigenen Rechner unter der Top-Level-Domain
-		<a href="http://localhost">localhost</a> ausgeliefert.
-	</p>
-	<p>
-		Sie werden hier Ihre Website erstellen, auf der Sie auch ohne Internetzugang surfen können.
-		Erst wenn Sie mit Ihrer Arbeit zufrieden sind, geht's in die Cloud.
-	</p>
-	<p>
-		Ihr Kursteam
-	</p>
-</article>
-</body>
-</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>Wohlgeformte Tabelle</title>
+        
+		<style type="text/css">
+		
+			 h1{
+				 margin-left:0.6em;
+				 margin-top:0.7em;
+				 margin-bottom:0.3em;
+				 font-size: 2em;
+				 font-family: 'Verdana',Arial, sans-serif;
+				 }
+			 html{ 
+				  background-color:#FFCC00;
+				  }				
+				
+			   table {
+				 margin-left:1em;
+				 border: 1px solid #FFCC00;
+				 background-color:#ECCC15 ;  
+			  }
+			  
+			  thead{
+				  background-color:#ECA90F;
+			  }
+			  
+			  tfoot th, tfoot td{
+				border:none;
+				 
+				}
+				
+			  th, td{
+				 border: 0.1em solid #808080;
+				 padding: 3px;
+				 font-family: 'Verdana', Arial, Helvetica, sans-serif;
+				 font-size: 90%;
+				 text-align: center;
+				 vertical-align:middle;
+			  }
+			.pfont{
+				font-family:"Courier New", Courier, monospace;
+				font-weight: 100;
+			  }
+			 .rider{
+				  background:#3D99CC;
+				  	}
+				  
+		</style>
+	</head>
+    
+    <body>
+    <h1>Übersicht aller XHTML(strict)-Elemente</h1>
+   	
+
+   	<div>
+		<table>
+		<thead>
+ 			<tr>
+ 				<td>Element</td>
+               	<td> Notation</td>
+ 				<td>Beschreibung</td>
+ 				<td>Leer-/Inside-/Blockelement</td>
+                <td>semantisch</td>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+      			<td><p>
+    			<a href="http://validator.w3.org/check/referer"><img style="border:0;width:88px;height:31px" src="WF_Tabelle-Dateien/valid-xhtml10.png" alt="Valid XHTML 1.0 Strict"></a><a href="http://validator.w3.org/check?uri=file%3A%2F%2F%2FVolumes%2FMacFD%2Fhoba%2FDesktop%2FXHTML-Tabelle%2FWF_Tabelle.html"></a>
+   
+      		</p></td>
+                <td><p>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px" src="WF_Tabelle-Dateien/valid-css2-blue.png" alt="CSS ist valide!"></a><a href="http://jigsaw.w3.org/css-validator/validator$link"></a>
+        	</p></td>
+    		</tr>
+ 		</tfoot>
+      <tbody>
+            <tr><td class="rider">A</td></tr>
+           <tr>
+               <td>a</td>
+               <td class="pfont">&lt;a&gt;...&lt;/a&gt;</td>
+               <td>Verweis (Hyperlink) und Anker für Verweise</td>
+               <td>IE</td>
+               <td>s</td>
+           </tr>
+           <tr>
+           		<td>abbr</td>
+                <td class="pfont">&lt;abbr&gt;...&lt;/abbr&gt;</td>
+                <td>Abkürzung</td>
+                <td>IE</td>
+                <td>s</td>
+           </tr>
+           <tr>
+           		<td>acronym</td>
+          		<td class="pfont">&lt;acronym&gt;...&lt;/acronym&gt;</td>
+           		<td>Akronym</td>
+                <td>IE</td>
+                <td>s</td>
+        	</tr>
+           <tr>
+           		<td>address</td>
+                <td class="pfont">&lt;address&gt;...&lt;/address&gt;</td>
+                <td>Autoreninformation</td>
+                <td>BE</td>
+                <td>s</td>
+           </tr>
+           <tr>
+           		<td>area</td>
+                <td class="pfont">&lt;area [Attribute]/&gt;</td>
+                <td>Verweissensitiver Bereich in einer Image-Map-Grafik</td>
+                <td>IE</td>
+                <td>-</td>
+            </tr>
+           <tr><td class="rider">B</td></tr>
+           <tr>
+           		<td>b</td>
+                <td class="pfont">&lt;b&gt;...&lt;/b&gt;</td>
+           		<td>Stilistische Hervorhebung im Text (fett)</td>
+                <td>IE</td>
+                <td>-</td>
+            </tr>
+           <tr>
+           		<td>base</td>
+           		<td class="pfont">&lt;base [Attribute]/&gt;</td>
+           		<td>Basis-URL für Referenzen</td>
+                <td>LE</td>
+                <td>s</td>
+           </tr>
+           <tr>
+           		<td>bdo</td>
+                <td class="pfont">&lt;bdo&gt;...&lt;/bdo&gt;</td>
+                <td>Richtungsänderung bei bidirektionalem Text</td>
+                <td>IE</td>
+                <td>s</td>
+           </tr>
+           <tr>
+           		<td>big</td>
+                <td class="pfont">&lt;big&gt;...&lt;/big&gt;</td>
+                <td>Großschrift</td>
+                <td>?E</td>
+                <td>-</td>
+            </tr>
+           <tr>
+           		<td>blockquote</td>
+                <td class="pfont">&lt;blockquote&gt;...&lt;/blockquote&gt;</td>
+                <td>Langes Zitat</td>
+                <td>BE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>body</td>
+                <td class="pfont">&lt;body&gt;...&lt;/body&gt;</td>
+                <td>Inhaltsbereich eines HTML-Dokuments</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+            <tr>
+            	<td>br</td>
+                <td class="pfont">&lt;br [Attribute]/&gt;</td>
+                <td>Zeilenumbruch</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>button</td>
+                <td class="pfont">&lt;button&gt;...&lt;/button&gt;</td>
+                <td>Schaltfläche in einem Formular</td>
+                <td>IE</td>
+                <td>-</td>
+             </tr>
+           <tr><td class="rider">C</td></tr>
+           <tr>
+           		<td>caption</td>
+                <td class="pfont">&lt;caption&gt;...&lt;/caption&gt;</td>
+                <td>(Tabellen-) Kopfzeile</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>cite</td>
+                <td class="pfont">&lt;cite&gt;...&lt;/cite&gt;</td>
+                <td>Literaturverweis</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>code</td>
+                <td class="pfont">&lt;code&gt;...&lt;/code&gt;</td>
+                <td>Code-Fragment</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>col</td>
+                <td class="pfont">&lt;col [Attribute]/&gt;</td>
+                <td>Spalte</td>
+                <td>IE</td>
+                <td>s</td>
+             </tr>
+           <tr>
+           		<td>colgroup</td>
+                <td class="pfont">&lt;colgroup&gt;...&lt;/colgroup&gt;</td>
+                <td>Spaltengruppe</td>
+                <td>IE</td>
+                <td>s</td>
+             </tr>
+           <tr><td class="rider">D</td></tr>
+           <tr>
+           		<td>dd</td>
+                <td class="pfont">&lt;dd&gt;...&lt;/dd&gt;</td>
+                <td>Definitionsbeschreibung</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>del</td>
+                <td class="pfont">&lt;del&gt;...&lt;/del&gt;</td>
+                <td>Gelöschter Text</td>
+                <td>BE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>dfn</td>
+                <td class="pfont">&lt;dfn&gt;...&lt;/dfn&gt;</td>
+                <td>Instanzdefinition</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>div</td>
+                <td class="pfont">&lt;div&gt;...&lt;/div&gt;</td>
+                <td>Generischer Container</td>
+                <td>BE</td>
+                <td>s</td>
+                </tr>
+           <tr>
+           		<td>dl</td>
+                <td class="pfont">&lt;dl&gt;...&lt;/dl&gt;</td>
+                <td>Definitionsliste</td>
+                <td>BE</td>
+                <td>s</td>
+              </tr>
+           <tr>
+           		<td>dt</td>
+                <td class="pfont">&lt;dt&gt;...&lt;/dt&gt;</td>
+                <td>Definitionsbegriff</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr><td class="rider">E</td></tr>
+           <tr>
+           		<td>em</td>
+                <td class="pfont">&lt;em&gt;...&lt;/em&gt;</td>
+                <td>Betonung</td>
+                <td>IE</td>
+                <td>-</td>
+            </tr>
+           <tr><td class="rider">F</td></tr>
+           <tr>
+           		<td>fieldset</td>
+                <td class="pfont">&lt;fieldset&gt;...&lt;/fieldset&gt;</td>
+                <td>Kontrollelementgruppe</td>
+                <td>BE</td>
+                <td>s</td>
+             </tr>
+           <tr>
+           		<td>form</td>
+                <td class="pfont">&lt;em&gt;...&lt;/em&gt;</td>
+                <td>Formular</td>
+                <td>BE</td>
+                <td>s</td>
+            </tr>
+           <tr><td class="rider">H</td></tr>
+           <tr>
+           		<td>h1</td>
+                <td class="pfont">&lt;h1&gt;...&lt;/h1&gt;</td>
+                <td>Überschriftlevel1</td>
+                <td>BE</td>
+                <td>s</td>
+            </tr>
+            <tr>
+           		<td>h2</td>
+                <td class="pfont">&lt;h2&gt;...&lt;/h2&gt;</td>
+                <td>Überschriftlevel2</td>
+                <td>BE</td>
+                <td>s</td>
+            </tr>
+            <tr>
+           		<td>h3</td>
+                <td class="pfont">&lt;h3&gt;...&lt;/h3&gt;</td>
+                <td>Überschriftlevel3</td>
+                <td>BE</td>
+                <td>-</td>
+            </tr>
+            <tr>
+           		<td>h4</td>
+                <td class="pfont">&lt;h4&gt;...&lt;/h4&gt;</td>
+                <td>Überschriftlevel4</td>
+                <td>BE</td>
+                <td>-</td>
+            </tr>
+            <tr>
+           		<td>h5</td>
+                <td class="pfont">&lt;h5&gt;...&lt;/h5&gt;</td>
+                <td>Überschriftlevel5</td>
+                <td>BE</td>
+                <td>-</td>
+            </tr>
+            <tr>
+           		<td>h6</td>
+                <td class="pfont">&lt;h6&gt;...&lt;/h6&gt;</td>
+                <td>Überschriftlevel6</td>
+                <td>BE</td>
+                <td>-</td>
+            </tr>
+   
+           <tr>
+           		<td>head</td>
+                 <td class="pfont">&lt;head&gt;...&lt;/head&gt;</td>
+                <td>Dokumentkopf</td>
+                <td>?E</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>hr</td>
+                 <td class="pfont">&lt;hr&gt;...&lt;/hr&gt;</td>
+                <td>Horizontaler Trenner</td>
+                <td>BE</td>
+                <td>s</td>
+             </tr>
+           <tr>
+           		<td>html</td>
+                <td class="pfont">&lt;html&gt;...&lt;/html&gt;</td>
+                <td>Dokument-Root</td>
+                <td>?E</td>
+                <td>s</td>
+            </tr>
+           <tr><td class="rider">I</td></tr>
+           <tr>
+           		<td>i</td>
+                <td class="pfont">&lt;i&gt;...&lt;/i&gt;</td>
+                <td>Kursivschrift</td>
+                <td>IE</td>
+                <td>-</td>
+            </tr>
+           <tr>
+           		<td>img</td>
+                <td class="pfont">&lt;col [Attribute]/&gt;</td>
+                <td>Bild</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>input</td>
+                <td class="pfont">&lt;input [Attribute]/&gt;</td>
+                <td>Eingabeelement</td>
+                <td>IE</td>
+                <td>s</td>
+             </tr>
+           <tr>
+           		<td>ins</td>
+                 <td class="pfont">&lt;ins&gt;...&lt;/ins&gt;</td>
+                <td>Eingefügter Text</td>
+                <td>BE</td>
+                <td>s</td>
+             </tr>
+           <tr><td class="rider">K</td></tr>
+           <tr>
+           		<td>kbd</td>
+                 <td class="pfont">&lt;kbd&gt;...&lt;/kbd&gt;</td>
+                <td>Einzugebender Text</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr><td class="rider">L</td></tr>
+           <tr>
+           		<td>label</td>
+                <td class="pfont">&lt;label&gt;...&lt;/label&gt;</td>
+                <td>Formularbeschriftung</td>
+                <td>IE</td>
+                <td>s</td>
+             </tr>
+           <tr>
+           		<td>legend</td>
+                <td class="pfont">&lt;legend&gt;...&lt;/legend&gt;</td>
+                <td>Beschriftung</td>
+                <td>IE</td>
+                <td>s</td>
+                </tr>
+           <tr>
+           		<td>li</td>
+                 <td class="pfont">&lt;li&gt;...&lt;/li&gt;</td>
+                <td>Listenelement</td>
+                <td>?E</td>
+                <td>s</td>
+                </tr>
+           <tr>
+           		<td>link</td>
+                <td class="pfont">&lt;link [Attribute]/&gt;</td>
+                <td>Medienunabhängiger Link</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr><td class="rider">M</td></tr>
+           <tr>
+           		<td>map</td>
+                <td class="pfont">&lt;map&gt;...&lt;/map&gt;</td>
+                <td>Clientseitige Image-Map</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr>	<td>meta</td>
+           		<td class="pfont">&lt;meta [Attribute]/&gt;</td>
+                <td>Meta-Angabe für nicht im Inhalt sichtbare Dokumentinformationen oder für Anweisungen an den Webserver</td>
+                <td>?E</td>
+                <td>s</td>
+            </tr>                
+           <tr><td class="rider">N</td></tr>
+           <tr>
+           		<td>noscript</td>
+                <td class="pfont">&lt;noscript&gt;...&lt;/noscript&gt;</td>
+                <td>Fallback-Container</td>
+                <td>BE</td>
+                <td>s</td>
+            </tr>
+           <tr><td class="rider">O</td></tr>
+           <tr>
+           		<td>object</td>
+                <td class="pfont">&lt;object&gt;...&lt;/object&gt;</td>
+                <td>Generisches Objekt</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>ol</td>
+                <td class="pfont">&lt;ol&gt;...&lt;/ol&gt;</td>
+                <td>Geordnete Liste</td>
+                <td>BE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>optgroup</td>
+                <td class="pfont">&lt;optgroup&gt;...&lt;/optgroup&gt;</td>
+                <td>Gruppe von Auswahlmöglichkeiten in einer Auswahlliste</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>option</td>
+                <td class="pfont">&lt;option&gt;...&lt;/option&gt;</td>
+                <td>Auswahlmöglichkeit</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+            <tr><td class="rider">P</td></tr>
+           <tr>
+           		<td>p</td>
+                <td class="pfont">&lt;p&gt;...&lt;/p&gt;</td>
+                <td>Absatz</td>
+                <td>BE</td>
+                <td>s</td>
+             </tr>
+           <tr>
+           		<td>param</td>
+                <td class="pfont">&lt;param&gt;...&lt;/param&gt;</td>
+                <td>Parameter</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>pre</td>
+                <td class="pfont">&lt;pre&gt;...&lt;/pre&gt;</td>
+                <td>Präformatierter Text (alle Whitespace-Zeichen werden im Browser so dargestellt wie im Text enthalten)</td>
+                <td>BE</td>
+                <td>-</td>
+             </tr>
+           <tr><td class="rider">Q</td></tr>
+           <tr>
+           		<td>q</td>
+                <td class="pfont">&lt;q&gt;...&lt;/q&gt;</td>
+                <td>Wörtliche Rede in einem Text</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr><td class="rider">s</td></tr>
+           <tr>
+           		<td>samp</td>
+                <td class="pfont">&lt;samp&gt;...&lt;/samp&gt;</td>
+                <td>Beispieltext in einem dokumentierenden Text</td>
+                <td>IE</td>
+                <td>s</td>
+             </tr>
+           <tr>
+           		<td>script</td>
+                <td class="pfont">&lt;script&gt;...&lt;/script&gt;</td>
+                <td>Script-Anweisungen</td>
+                <td>IE</td>
+                <td>s</td>
+                </tr>
+           <tr>
+           		<td>select</td>
+                <td class="pfont">&lt;select&gt;...&lt;/select&gt;</td>
+                <td>Optionsauswahl</td>
+                <td>IE</td>
+                <td>s</td>
+                </tr>
+           <tr>
+           		<td>small</td>
+                <td class="pfont">&lt;small&gt;...&lt;/small&gt;</td>
+                <td>Kleinschrift</td>
+                <td>IE</td>
+                <td>-</td>
+            </tr>
+           <tr>
+           		<td>span</td>
+                <td class="pfont">&lt;span&gt;...&lt;/span&gt;</td>
+                <td>Generischer Container</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>strong</td>
+                <td class="pfont">&lt;strong&gt;...&lt;/strong&gt;</td>
+                <td>Starke Betonung</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>style</td>
+                <td class="pfont">&lt;style&gt;...&lt;/style&gt;</td>
+                <td>Gestaltungsanweisungen</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>sub</td>
+                <td class="pfont">&lt;sub&gt;...&lt;/sub&gt;</td>
+                <td>Tiefgestellte Schrift</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>sup</td>
+                <td class="pfont">&lt;sup&gt;...&lt;/sup&gt;</td>
+                <td>Hochgestellte Schrift</td>
+                <td>IE</td>
+                <td>s</td>
+                </tr>
+           <tr><td class="rider">T</td></tr>
+           <tr>
+           		<td>table</td>
+                <td class="pfont">&lt;table&gt;...&lt;/table&gt;</td>
+                <td>Tabelle</td>
+                <td>BE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>tbody</td>
+                <td class="pfont">&lt;tbody&gt;...&lt;/tbody&gt;</td>
+                <td>Tabellenkörper</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>td</td>
+                <td class="pfont">&lt;td&gt;...&lt;/td&gt;</td>
+                <td>Tabellenzelle</td>
+                <td>?E</td>
+                <td>s</td>
+                </tr>
+           <tr>
+           		<td>textarea</td>
+                <td class="pfont">&lt;textarea&gt;...&lt;/textarea&gt;</td>
+                <td>Mehrzeiliges Textfeld</td>
+                <td>IE</td>
+                <td>s</td>
+                </tr>
+           <tr>
+           		<td>tfoot</td>
+                <td class="pfont">&lt;tfoot&gt;...&lt;/tfoot&gt;</td>
+                <td>Tabellenfuß</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>th</td>
+                <td class="pfont">&lt;th&gt;...&lt;/th&gt;</td>
+                <td>Tabellenkopfzelle</td>
+                <td>BE</td>
+                <td>s</td>
+                </tr>
+           <tr>
+           		<td>thead</td>
+                <td class="pfont">&lt;thead&gt;...&lt;/thead&gt;</td>
+                <td>Tabellenkopf</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>title</td>
+                <td class="pfont">&lt;title&gt;...&lt;/title&gt;</td>
+                <td>Dokumenttitel</td>
+                <td>IE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>tr</td>
+                <td class="pfont">&lt;tr&gt;...&lt;/tr&gt;</td>
+                <td>Tabellenzeile</td>
+                <td>BE</td>
+                <td>s</td>
+            </tr>
+           <tr>
+           		<td>tt</td>
+                <td class="pfont">&lt;tt&gt;...&lt;/tt&gt;</td>
+                <td>»Fernschreiber«-Text</td>
+                <td>?E</td>
+                <td>s</td>
+            </tr>
+           <tr><td class="rider">U</td></tr>
+           <tr>
+           		<td>ul</td>
+                <td class="pfont">&lt;ul&gt;...&lt;/ul&gt;</td>
+                <td>Ungeordnete Liste</td>
+                <td>BE</td>
+                <td>s</td>
+             </tr>
+           <tr><td class="rider">V</td></tr>
+           <tr>
+           		<td>var</td>
+                <td class="pfont">&lt;var&gt;...&lt;/var&gt;</td>
+                <td>Variableninstanz</td>
+                <td>IE</td>
+                <td>s</td>
+                </tr>
+      </tbody>
+           </table>
+    	</div>
+        
+    
+ </body></html>
