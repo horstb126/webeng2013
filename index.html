@@ -10,11 +10,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="cleartype" content="on">
 
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
-        <link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="h5bpm/img/touch/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="h5bpm/img/touch/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="h5bpm/img/touch/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="h5bpm/img/touch/apple-touch-icon-57x57-precomposed.png">
+        <link rel="shortcut icon" href="h5bpm/img/touch/apple-touch-icon.png">
 
         <!-- Tile icon for Win8 (144x144 + tile color) -->
         <meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
@@ -35,24 +35,31 @@
 
         <link rel="stylesheet" href="h5bpm/css/normalize.css">
         <link rel="stylesheet" href="h5bpm/css/main.css">
+        <link rel="stylesheet" href="h5bpm/css/video-js.css">
+        <link rel="stylesheet" href="h5bpm/css/my.css">
         <script src="h5bpm/js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="h5bpm/js/video.min.js"></script>
     </head>
     <body>
 
         <!-- Add your site or application content here -->
        <h1>That is my first html5-mobile video page</h1>
        <p></p>
-       <video width="80%" poster="" controls="">
-       	<source type="video/mp4" src="h5bpm/video/anything.mp4"></source>
-       	<source type="video/webm" src="h5bpm/video/anything.webm"></source>
-       	<source type="video/ogg" src="h5bpm/video/anything.ogg"></source>
-       	<source type="video/mov" src="h5bpm/video/anything.mov"></source>
-
+     <article>  
+     	<video  controls>
+       	<source  src="h5bpm/video/anything.mp4" type='video/mp4' ></source>
+       	<source  src="h5bpm/video/anything.webm" type='video/webm' ></source>
+       	<source  src="h5bpm/video/anything.ogg" type='video/ogg' ></source>
+       	<source  src="h5bpm/video/anything.mov" type='video/mov'></source>
+        <track kind="captions" src="h5bpm/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+    <track kind="subtitles" src="h5bpm/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
        	Your browser doesn't support this videoformat. Try an other browser!
         </video>
+      </article>
         <script src="h5bpm/js/vendor/zepto.min.js"></script>
         <script src="h5bpm/js/helper.js"></script>
-
+        <script>videojs.options.flash.swf = "video-js.swf"</script>
+	
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
